@@ -225,3 +225,15 @@ plugins:
   - jemoji
   
 theme: jekyll-text-theme
+
+## => Comments
+##############################
+comments:
+  provider: gitalk
+  gitalk:
+    clientID    : "fb3538d34e68794ff030"
+    clientSecret: "90ebe6e8bc7e478e6f57f724f1e01086d24749eb "
+    repository  : "faresong.github.io"
+    owner       : "faresong"
+    admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
+      - "faresong"
