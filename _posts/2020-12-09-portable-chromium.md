@@ -29,6 +29,6 @@ Chromium 解压文件的位置：/portable/App/Chrome-bin/；
 首次打开将创建用户信息目录  /portable/Data/profile
 
 ## 参考
-https://www.chromium.org/getting-involved/download-chromium
-https://chromium.woolyss.com/download
-https://portableapps.com/apps/internet/google_chrome_portable
+​https://www.chromium.org/getting-involved/download-chromium
+​https://chromium.woolyss.com/download
+​https://portableapps.com/apps/internet/google_chrome_portable
