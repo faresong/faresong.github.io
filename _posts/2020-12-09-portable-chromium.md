@@ -10,6 +10,7 @@ tags: Windows portable chromium
 
 ## 2. 获取 Chromium 解压文件
 mini_installer.exe，用解压软件打开，目录 Chrome-bin/ 下的文件是需要的文件；
+
 chrome-win.zip，目录 chrome-win/ 下的文件是需要的文件.
 
 ## 3. 下载 GoogleChromePortable
@@ -17,8 +18,13 @@ chrome-win.zip，目录 chrome-win/ 下的文件是需要的文件.
 
 ## 4. 目录配置
 创建一个目录 /portable/；
+
 GoogleChromePortable 的位置：/portable/GoogleChromePortable.exe；
+
 Chromium 解压文件的位置：/portable/App/Chrome-bin/；
+
+
+
 
 首次打开将创建用户信息目录  /portable/Data/profile
 
