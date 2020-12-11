@@ -21,3 +21,11 @@ tags: Linux
 ###### 显示某个包的依赖关系
 
 `apt depends unzip`
+
+###### 只使用 IPv4
+
+`apt -o Acquire::ForceIPv4=true install unzip`
+
+###### 只使用 IPv6
+
+`apt -o Acquire::ForceIPv6=true install unzip`
