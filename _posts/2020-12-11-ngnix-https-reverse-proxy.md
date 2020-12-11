@@ -26,9 +26,9 @@ http {
 	# 监听 3002 端口，转发至本地地址 3001 端口
 	server {
 		listen 3002 ssl;
-		server_name [主机名];
-		ssl_certificate [证书路径];
-		ssl_certificate_key [私钥路径];
+		server_name 192.168.0.174;		# 主机名
+		ssl_certificate app.crt;		# 证书路径
+		ssl_certificate_key app.key;		# 私钥路径
 		location / {
 			proxy_pass http://127.0.0.1:3001;
 		}
